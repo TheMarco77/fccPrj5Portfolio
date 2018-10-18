@@ -1,6 +1,9 @@
 body {
     background-color: blue;
     background-image: url(https://raw.githubusercontent.com/TheMarco77/fccPrj5Portfolio/master/img/MarcoFRamosBio.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
     text-align: center;
     height: 100%;
     width: 100%;
