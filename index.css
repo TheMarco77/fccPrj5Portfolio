@@ -1,32 +1,62 @@
 body {
-    background-color: #E0E0E0;
-    /*background-image: url(https://raw.githubusercontent.com/TheMarco77/fccPrj5Portfolio/master/img/MarcoFRamosBio.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;*/
+    background-color: tomato;
+    width: 100vw;
+    height: 100vw;
     text-align: center;
-    height: 100%;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    .wrapper {
+        display: grid;
+        grid-template-rows: 40px repeat(2, 150px) repeat(2, 500px) 1fr;
+} 
+
+/*
+Grid templates gap commands below:
+     grid-column-gap: 10px;
+     grid-row-gap: 10px;
+Grid templates gap commands above
+*/
+
+#navbar {
+    background-color: pink;
+    top: 0px;
+    vertical-align: middle;
+    width: 100vw;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    grid-row: 1 / 2;
+    position: fixed;
+    text-align: justify;
 }
 
 header {
     position: fixed;
     top: 0;
-    text-align: center;
-    width: 100%;
+    /*text-align: center;
+    width: 100%;*/ 
     /*opacity: 0.2;
     filter: alpha(opacity=50);*/
 }
 
 #welcome-section {
+    color: green;
     height: 100vh;
-    color: #006400;
-   
+    grid-row: 2 / 3;
 }
 
-#navbar {
-    position: fixed;
-    top: 0px;
+.project-tile {
+    /*top: 5px;
     text-align: center;
     width: 100%;
+    display: grid;
+    padding: 10%;*/ 
+    grid-row: 3 / 4;
+}
+
+#profile-link {
+    width: 100%;
+
 }
