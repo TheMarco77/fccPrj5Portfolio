@@ -1,7 +1,7 @@
 body {
     background-color: turquoise;
     width: 100%;
-    height: 100vw;
+    height: 100%;
     text-align: center;
     font-family: 'Mali', cursive;
 }
@@ -67,15 +67,20 @@ opacity: 0.2;
     background-color: lightskyblue;
     width: 100%;
     grid-row: 3 / 4;
-    text-align:
+    text-align: left;
 }
 
 #about-me li {
-    width: 100vw;
+    width: 100%;
+}
+
+#about-me ul {
+    list-style: none;
 }
 
 img {
-    float: left;
+    /*float: left;*/
+    border-radius: 8%;
 }
 
 #projects {
