@@ -1,5 +1,5 @@
 body {
-    background-color: turquoise;
+    background-color: white;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -49,8 +49,8 @@ opacity: 0.2;
 
 #welcome-section {
     width: 100%;
-    background-color: green;
-    color: blue;
+    background-color: beige;
+    color: black;
 
    /*text-align: center;
     align-self: right;
@@ -67,11 +67,12 @@ opacity: 0.2;
     background-color: lightskyblue;
     width: 100%;
     grid-row: 3 / 4;
-    text-align: left;
+    /*text-align: left;*/
 }
 
 #about-me li {
     width: 100%;
+    grid-row: 3 / 4;
 }
 
 #about-me ul {
@@ -80,7 +81,9 @@ opacity: 0.2;
 
 img {
     /*float: left;*/
-    border-radius: 8%;
+    border-radius: 4%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 #projects {
@@ -88,10 +91,11 @@ img {
     text-align: center;
     background-color: yellow;*/
     grid-row: 4 / 5;
+    width: 100%;
 }
 
 #projects li {
-    width: 100vw;
+    width: 100%;
     text-align: center;
     /*position: fixed;*/
 }
@@ -116,7 +120,7 @@ img {
 }
 
 #footer li {
-    background-color: burlywood;
+    background-color: pink;
     width: 100%;
     grid-row: 5 / 6;
 }
