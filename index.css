@@ -77,13 +77,14 @@ opacity: 0.2;
 
 #about-me ul {
     list-style: none;
+    text-align: center;
 }
 
 img {
-    /*float: left;*/
     border-radius: 4%;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
+    /*opacity: 0.5;
+    filter: alpha(opacity=50);*/
+    align-self: center;
 }
 
 #projects {
@@ -123,6 +124,8 @@ img {
     background-color: pink;
     width: 100%;
     grid-row: 5 / 6;
+    border-style: solid;
+    border-width: 5%;
 }
 
 /* Desktop CODE */
