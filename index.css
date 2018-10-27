@@ -76,11 +76,7 @@ opacity: 0.2;
 
 #about-me li { 
     width: 100%;
-    white-space: normal;
-    width: 100%;
-    height: auto;
-    word-wrap: break-word;
-
+    margin: 0 auto;
 }    
     /*grid-row: 3 / 4;*/
 #about-me ul {
