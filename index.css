@@ -67,6 +67,7 @@ opacity: 0.2;
     background-color: lightskyblue;
     grid-row: 3 / 4;
 }
+
     /*    width: 100%;
     align-content: center;
     /*grid-row: 3 / 4;
@@ -75,6 +76,11 @@ opacity: 0.2;
 
 #about-me li { 
     width: 100%;
+    white-space: normal;
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+
 }    
     /*grid-row: 3 / 4;*/
 /*
@@ -96,20 +102,19 @@ img {
     background-color: yellowgreen;
     grid-row: 4 / 5;
 }
-     
     /*text-align: center;
     background-color: yellow;
     
     width: 100%;
-
-#projects li { &
-    width: 100%;
+*/
+#projects li {
     text-align: center;
     list-style: none;
-    position: fixed;
+    display: inline-block;
+    padding: 15px;
 }
-
-.project-tile { &
+/*
+.project-tile { 
     text-align: center;
     width: 100%;
     display: grid;
