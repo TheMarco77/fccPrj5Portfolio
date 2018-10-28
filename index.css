@@ -100,7 +100,7 @@ li {
     }
     .wrapper {
         display: grid;
-        grid-template-rows: repeat(2, 40px) 200px 2080px 1fr;
+        grid-template-rows: repeat(2, 40px) 200px 1300px 1fr;
         grid-gap: 5px;
     }
 }
