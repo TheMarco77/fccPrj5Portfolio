@@ -112,7 +112,7 @@ li {
     }
     .wrapper {
         display: grid;
-        grid-template-rows: repeat(2, 40px) 200px 990px 1fr;
+        grid-template-rows: repeat(2, 40px) 200px 1190px 1fr;
         grid-gap: 5px;
     }
 }
