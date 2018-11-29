@@ -45,13 +45,13 @@ header {
 }
 
 #welcome-section h1 {
-    background-color: ghostwhite;
+    background-color: orangered;
     width: 100%;
     margin-top: 45px;
 }    
 
 #about-me {
-    background-color: lightskyblue;
+    background-color: #666666;
     grid-row: 3 / 4;
     width: 100%;
     height: 100%;
@@ -78,7 +78,7 @@ img {
 }
 
 #projects {
-    background-color: lightskyblue;
+    background-color: #666666;
     grid-row: 4 / 5;
 }
 li {
