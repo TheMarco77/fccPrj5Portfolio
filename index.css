@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: blue;
     width: 100%;
     height: 100%;
     color: ghostwhite;
@@ -21,7 +21,7 @@ a {
 } 
 
 #navbar {
-    background-color: orangered;
+    background-color: #49BCAB; /*Old colors used 2nd#666666; 1stOrangered*/
     top: 0px;
     width: 100%;
     height: 40px;
@@ -50,17 +50,18 @@ header {
 }
 
 #welcome-section h1 {
-    background-color: orangered;
+    background-color: gainsboro; /*Other colors used #666666 /*orangered*/
     width: 100%;
     margin-top: 45px;
 }    
 
 #about-me {
-    background-color: #666666;
+    background-color: #69737E; /*Other colors used #666666*/
     grid-row: 3 / 4;
     width: 100%;
     height: 100%;
     text-align: center;
+    border-radius: 3%;
     /*align-content: center;*/
 }
 
@@ -83,8 +84,9 @@ img {
 }
 
 #projects {
-    background-color: #666666;
+    background-color: #6e7675; /*Other colors used #666666 #141414*/
     grid-row: 4 / 5;
+    border-radius: 1%;
 }
 li {
     display: inline-block;
