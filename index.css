@@ -37,7 +37,6 @@ header {
     text-align: center;
 }
 
-
 #welcome-section {
      width: 100%;
     height: 100vh;
@@ -45,16 +44,8 @@ header {
     grid-row: 2 / 3;
     text-align: center;
     align-self: right;
-    align-items: center; */
-    .typewriter h1 {
-        overflow: hidden; /* Ensures the content is not revealed until the animation */
-        border-right: .15em solid orange; /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-        letter-spacing: .15em; /* Adjust as needed */
-        animation:
-      }
-}
+    align-items: center;
+    } */
 
 #welcome-section h1 {
     background-color: gainsboro; /*Other colors used #666666 /*orangered*/
