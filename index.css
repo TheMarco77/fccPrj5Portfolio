@@ -48,7 +48,7 @@ header {
     } */
 
 #welcome-section h1 {
-    background-color: gainsboro; /*Other colors used #666666 /*orangered*/
+    background-color: blue; /*Other colors used #666666 /*orangered*/
     width: 100%;
     margin-top: 45px;
 }    
@@ -60,7 +60,7 @@ header {
     height: 100%;
     text-align: center;
     border-radius: 4%;
-    /*align-content: center;*/
+    align-content: center;
 }
 #about-me img {
     align-items: center;
