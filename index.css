@@ -5,6 +5,9 @@ body {
     text-align: center;
     font-family: 'Mali', cursive;
 }
+.large-font { 
+    font-family: 'Open Sans', sans-serif;
+}
 
 a {
     color: white;
