@@ -57,7 +57,7 @@ header {
 
 #about-me {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 19.5px;
+    font-size: 19px;
     background-color: #373737 ; /*Other colors used #666666 and #69737E*/
     grid-row: 3 / 4;
     width: 100%;
