@@ -21,7 +21,6 @@ a {
         width: 100%;
         height: 100%;
 } 
-
 #navbar {
     background-color: #373737; /*Old colors used #373737 2nd#666666; 1stOrangered*/
     top: 0px;
@@ -99,19 +98,19 @@ li {
 #footer li{
     color: #F4F4F4;    
 }
-/* #E0E0E0 */
-/* above desktop size below  */
+
 @media only screen and (max-width: 1450px) {
     body {
-        /* background-color: #F4F4F4;  */
         width: 100%;
         height: 100%;                
     }
-    /* .wrapper {
+    .wrapper {
         display: grid;
-        grid-template-rows: 50px 0px 670px 1fr 480px;
-        grid-gap: 5px; 
-    } */
+        grid-template-rows: 50px 0px 825px 1fr 480px; /*repeat(2, 40px)*/
+        /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
+        /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
+        grid-gap: 5px;
+    }
 }
 @media only screen and (min-width: 1451px) {
     body {
@@ -120,7 +119,7 @@ li {
     }
     .wrapper {
         display: grid;
-        grid-template-rows: 50px 0px 425px 1fr 480px;/*repeat(2, 40px)*/
+        grid-template-rows: 50px 0px 825px 1fr 480px; /*repeat(2, 40px)*/
         /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
         /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
         grid-gap: 5px;
