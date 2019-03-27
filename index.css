@@ -56,7 +56,6 @@ header {
 }    
 
 #about-me {
-    font-family: 'Merriweather', serif;
     background-color: #373737 ; /*Other colors used #666666 and #69737E*/
     grid-row: 3 / 4;
     width: 100%;
