@@ -85,6 +85,7 @@ img {
 #projects {
     background-color: #373737; /*Other colors used#6e7675 #666666 #141414*/
     grid-row: 4 / 5;
+    
 }
 li {
     display: inline-block;
