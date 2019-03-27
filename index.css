@@ -119,7 +119,7 @@ li {
     }
     .wrapper {
         display: grid;
-        grid-template-rows: 50px 0px 825px 1fr 480px; /*repeat(2, 40px)*/
+        grid-template-rows: 50px 0px 631px 1fr 400px; /*repeat(2, 40px)*/
         /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
         /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
         grid-gap: 5px;
