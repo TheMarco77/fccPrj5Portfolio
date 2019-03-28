@@ -57,6 +57,7 @@ header {
 
 #about-me {
     font-family: 'Atma', cursive;
+    font-size: 18px;
     background-color: #373737 ; /*Other colors used #666666 and #69737E*/
     letter-spacing: 3.0px;
     grid-row: 3 / 4;
