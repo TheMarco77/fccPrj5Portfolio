@@ -17,8 +17,8 @@ a {
 
 .wrapper {
         display: grid;
-        grid-template-rows: 50px 0px 1fr;
-        grid-gap: 3px;
+        grid-template-rows: 50px 3px 1fr;
+        grid-gap: 2px;
         width: 100%;
         height: 100%;
 } 
@@ -40,7 +40,7 @@ header {
 
 #welcome-section {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     color: black;
     grid-row: 2 / 3;
     text-align: center;
@@ -49,12 +49,13 @@ header {
     }
 
 #about-project {
+    display: grid;
     background-color: #373737;
     font-family: 'Montserrat Alternates', sans-serif;
     letter-spacing: 1.0px;
     font-size: 1rem;
     border: 5em;
-    padding-left: 15px;
+    padding-left: 0px;
     grid-row: 3 / 4;
     width: 100%;
     text-align: center;
@@ -80,7 +81,7 @@ img {
 .btn {
     background-color: orange;
     border: 0;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     box-shadow: 5px 5px 5px 0 white;
     color: #fff;
     /* cursor: pointer; */
@@ -107,8 +108,6 @@ img {
     .wrapper {
         display: grid;
         grid-template-rows: 50px 1fr;
-        /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
-        /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
         grid-gap: 5px;
     }
 }
@@ -120,8 +119,6 @@ img {
     .wrapper {
         display: grid;
         grid-template-rows: 50px 1fr;
-        /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
-        /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
         grid-gap: 5px;
     }
 }
