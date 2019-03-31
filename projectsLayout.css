@@ -57,16 +57,17 @@ header {
     padding-left: 15px;
     grid-row: 3 / 4;
     width: 100%;
-    text-align: left;
+    text-align: center;
     align-content: center;
 
 }
 #about-project li {
     margin: 0 auto;
+    list-style: none;
 }
 ul {
     list-style: circle;
-    text-align: left;
+    text-align: center;
 }
 ol {
     align-items: center;
@@ -93,10 +94,11 @@ img {
     font-family: 'Shadows Into Light', cursive;
     font-size: 100%;
     color: orange;
-/* }
-li {
-     displ; - maybe later I have to create a list item -
+ }
+/* li {
+    list-style: none;
 } */
+
 @media only screen and (max-width: 1450px) {
     body {
         width: 100%;
