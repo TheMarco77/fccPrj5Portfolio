@@ -27,7 +27,9 @@ a {
     width: 100%;
     /* height: 40px; */
     grid-row: 1 / 2;
-    position: fixed; 
+    position: fixed;
+    
+    
 }
 #navbar li {
     display: inline;
@@ -57,7 +59,7 @@ header {
 
 #about-project {
     background-color: #373737;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
     letter-spacing: 1.0px;
     font-size: 1rem;
     border: 5em;
@@ -72,13 +74,11 @@ header {
     align-items: center; 
 }*/
 #about-project li {
-    
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 ul {
     list-style: circle;
-    /* list-style: none;  */
-    /* text-align: left; center; */
+    text-align: left;
 }
 img {
     /* border-radius: 4%; */
