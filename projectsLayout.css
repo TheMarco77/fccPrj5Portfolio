@@ -54,11 +54,12 @@ header {
     letter-spacing: 1.0px;
     font-size: 1rem;
     border: 5em;
-    padding-left: 18px;
+    padding-left: 15px;
     grid-row: 3 / 4;
     width: 100%;
     text-align: left;
-    align-content: left;
+    align-content: center;
+
 }
 #about-project li {
     margin: 0 auto;
@@ -70,9 +71,10 @@ ul {
 ol {
     align-items: center;
     text-align: center;
+    /* text-align: center; */
 }
 img {
-    align-items: center;
+    align-items: right;
 }
 .btn {
     background-color: orange;
