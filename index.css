@@ -81,6 +81,18 @@ img {
     border-radius: 4%;
     align-items: center;
 }
+
+.btn {
+    background-color: orange;
+    border: 0;
+    /* border-radius: 4px; */
+    box-shadow: 5px 5px 5px 0 white;
+    color: #fff;
+    /* cursor: pointer; */
+    padding: 7px;
+    font-family: inherit;
+    font-size: 1rem;
+}
 #projects {
     background-color: #373737;
     grid-row: 4 / 5;
@@ -90,6 +102,7 @@ img {
 }
 li {
     display: inline-block;
+    list-style: none;
 }
 #footer {
     background-color: #373737;
