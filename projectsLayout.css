@@ -28,6 +28,7 @@ a {
     width: 100%;
     grid-row: 1 / 2;
     position: fixed;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 #navbar li {
     display: inline;
