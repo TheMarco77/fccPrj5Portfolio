@@ -86,9 +86,9 @@ img {
 .color:hover {
     background: tomato;
 }
-a:hover {
+/* a:hover {
     background: tomato;
-}
+} */
 
 .btn  {
     background-color: orange;
