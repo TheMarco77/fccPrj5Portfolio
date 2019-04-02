@@ -1,0 +1,139 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: ghostwhite;
+    text-align: center;
+    font-family: 'Mali', cursive;
+}
+.large-font { 
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: yellow;
+}
+/*Mobile CODE below*/
+
+.wrapper {
+        display: grid;
+        grid-template-columns: 1fr auto;/*repeat(2, 40px)*/
+        grid-gap: 3px;
+        width: 100%;
+        height: 100%;
+} 
+#navbar {
+    background-color: #373737;
+    top: 0px;
+    width: 100%;
+    /* height: 40px; */
+    grid-row: 1 / 2;
+    position: fixed;
+    
+    
+}
+#navbar li {
+    display: inline;
+    vertical-align: middle;
+    align-self: center;    
+}
+
+header {
+    text-align: center;
+}
+
+/* #welcome-section {   NOT USING THIS SECTION
+    width: 100%;
+    height: 100vh;
+    color: black;
+    grid-row: 2 / 3;
+    text-align: center;
+    align-self: right;
+    align-items: center;
+    } */
+
+/* #welcome-section h1 {    NOT USING THIS SECTION
+    background-color: blue;
+    width: 100%;
+    margin-top: 20px;
+}     */
+
+#about-project {
+    background-color: #373737;
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 1.0px;
+    font-size: 1rem;
+    border: 5em;
+    padding-left: 18px;
+    grid-row: 2 / 3;
+    width: 100%;
+    /* height: 100%; */
+    text-align: left;
+    align-content: left;
+}
+
+/* #about-project img {
+    align-items: center; 
+}*/
+
+#about-project li {
+    margin: 0 auto;
+}
+ul {
+    list-style: circle;
+    text-align: left;
+}
+img {
+    /* border-radius: 4%; */
+    align-items: center;
+}
+.btn {
+    background-color: orange;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 0 white;
+    color: #fff;
+    cursor: pointer;
+    padding: 1px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+#projects {
+    background-color: #373737;
+    grid-row: 4 / 5;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100%;
+    color: orange;
+}
+    /* #footer {
+    background-color: #373737;
+    grid-row: 5 / 6;
+    width: 100%; */
+/* }
+#footer li{
+    color: #F4F4F4;    
+} */
+
+@media only screen and (max-width: 1450px) {
+    body {
+        width: 100%;
+        height: 100%;                
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr auto; /*repeat(2, 40px)*/
+        /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
+        grid-gap: 5px;
+    }
+}
+@media only screen and (min-width: 1451px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr auto; /*repeat(2, 40px)*/
+        /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
+        grid-gap: 5px;
+    }
+}
