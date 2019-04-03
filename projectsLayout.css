@@ -79,8 +79,9 @@ ol {
 img {
     align-items: right;
 }
-a:hover {
+.color:hover {
     background:tomato;
+    color: black;
 }
 .btn {
     background-color: orange;

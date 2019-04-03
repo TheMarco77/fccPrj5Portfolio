@@ -62,8 +62,9 @@ img {
     border-radius: 2%;
     align-items: center;
 }
-a:hover {
+.color:hover {
     background: tomato;
+    color: black;
 }
 .btn {
     background-color: orange;

@@ -85,6 +85,7 @@ img {
 }
 .color:hover {
     background: tomato;
+    color: black;
 }
 /* a:hover {
     background: tomato;
