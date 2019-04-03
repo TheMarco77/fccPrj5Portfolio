@@ -84,12 +84,12 @@ img {
     color: black;
 }
 .btn {
-    background-color: orange;
+    background-color: #5D5D5D;
     border: 0;
-    color: #fff;
-    padding: 7px;
+    color: orange;
+    padding: 11px;
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 #projects {
     background-color: #373737;
