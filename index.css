@@ -67,7 +67,7 @@ nav:after {
 }
 
 .nav-links li a {
-  color: #eef1f5;
+  color: #ffffff;
   text-decoration: none;
   font-size: 16px;
   font-weight: bolder;
@@ -185,10 +185,10 @@ li {
     position: fixed;
     /* background: #5b78c7; #6f78eed2 */
     background: linear-gradient(
-      90deg,
-      rgba(14, 0, 0, 0.876) 98%,
-      rgba(238, 5, 5, 0.602) 66%,
-      rgba(231, 246, 27, 0.712) 98%
+      80deg,
+      rgba(238, 5, 5, 0.602) 39%,
+      rgba(231, 246, 27, 0.712) 98%,
+      rgba(14, 0, 0, 0.876) 2%
     );
     height: 100vh;
     width: 100%;
