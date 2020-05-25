@@ -250,7 +250,7 @@ li {
 
   .grid-wrapper {
     display: grid;
-    grid-template-rows: 101px 0px 580px 1fr 550px;
+    grid-template-rows: 101px 0px 580px 1fr 650px;
     /* repeat(2, 40px)*/
     /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
     /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
