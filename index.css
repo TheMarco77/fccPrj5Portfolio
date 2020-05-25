@@ -25,7 +25,7 @@ a {
 
 .grid-wrapper {
   display: grid;
-  grid-template-rows: 140px 50px 600px 1fr 320px;
+  grid-template-rows: 120px 2px 600px 1fr 320px;
   /* grid-template-rows: 140px 650px 1fr; */
   grid-gap: 3px;
   width: 100%;
@@ -186,7 +186,7 @@ li {
   }
 
   nav {
-    position: relative;
+    position: fixed;
   }
 
   .hamburger {
@@ -250,8 +250,8 @@ li {
 
   .grid-wrapper {
     display: grid;
-    grid-template-rows: 101px 0px 500px 1fr 550px;
-    /*repeat(2, 40px)*/
+    grid-template-rows: 101px 0px 580px 1fr 550px;
+    /* repeat(2, 40px)*/
     /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
     /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
     grid-gap: 5px;
