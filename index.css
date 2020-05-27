@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 body {
+  /* margin: 0; */
   width: 100%;
   height: 100%;
-  color: #b8c6ce;
-  background: rgb(14, 0, 0);
-  background: linear-gradient(14deg, rgba(14, 0, 0, 1) 0%, rgba(55, 55, 55, 0.7827422752808989) 93%);
+  /* color: #b8c6ce; */
+  background: #A1BCED;
+  /* background: linear-gradient(175deg, rgba(148, 175, 226, 0.6965161064425771) 30%, rgba(195, 224, 254, 0.7217261904761905) 74%, rgba(255, 255, 255, 0.5676645658263305) 98%); */
+  */
+  /* background: rgb(14, 0, 0);
+  background: linear-gradient(14deg, rgba(14, 0, 0, 1) 0%, rgba(55, 55, 55, 0.7827422752808989) 93%); */
   /* background: rgb(14, 0, 0);
   background: radial-gradient(circle,
       rgba(14, 0, 0, 1) 64%,
       rgba(248, 254, 17, 1) 89%);*/
   text-align: center;
-  font-family: 'Rammetto One', cursive;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 18px;
 }
 
 /* .large-font {
@@ -25,7 +32,7 @@ a {
 
 .grid-wrapper {
   display: grid;
-  grid-template-rows: 120px 2px 600px 1fr 320px;
+  grid-template-rows: 120px 2px 900px 1fr 320px;
   /* grid-template-rows: 140px 650px 1fr; */
   grid-gap: 3px;
   width: 100%;
@@ -36,10 +43,10 @@ nav {
   top: 0px;
   position: fixed;
   width: 100%;
-  height: 10vh;
+  height: 11vh;
   grid-row: 1 / 2;
-  font-family: 'Rammetto One', cursive;
-  font-size: 20px;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 70px;
   box-sizing: border-box;
   background: linear-gradient(90deg,
       rgba(14, 0, 0, 1) 39%,
@@ -78,7 +85,7 @@ nav:after {
 .nav-links li a {
   color: #b8c6ce;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -86,7 +93,7 @@ header {
   text-align: center;
 }
 
-#welcome-section {
+/* #welcome-section {
   width: 100%;
   height: 100vh;
   grid-row: 2 / 3;
@@ -99,30 +106,92 @@ header {
   background-color: blue;
   width: 100%;
   margin-top: 20px;
-}
+} */
 
 .about-me {
-  margin-top: 50%;
-  background-color: red;
-  font-family: 'Montserrat Alternates', sans-serif;
-  letter-spacing: 1px;
-  font-size: 1rem;
-  border: 5em;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(https://raw.githubusercontent.com/TheMarco77/fccPrj5Portfolio/master/img/mainPortfolioImageMarcoFilipeFigueiraRamos.jpg);
+  font-family: 'Chelsea Market', cursive;
+  z-index: -1;
+  /* letter-spacing: 1px; */
+  /* font-size: 1rem; */
+  /* border: 5em; */
   grid-row: 3 / 4;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  align-content: center;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* text-align: center; */
+  /* align-content: center; */
 }
 
-#about-me img {
+.aboutMe-title {
+  /* position: relative; */
+  /* height: 100vh;
+  width: 100vw; */
+  /* background: rgba(0, 0, 0, 0.4); */
+  color: rgb(1, 3, 8);
+  font-weight: bold;
+  display: left;
+  align-items: left;
+  text-align: left;
+  padding: 10px;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+}
+
+.aboutMe-sub-title {
+  /* position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);*/
+  color: rgb(0, 0, 0);
+  /* font-weight: bold; */
+  font-style: italic;
+  font-size: 23px;
+  /* padding: 5px 5px 3px 5px; */
+  display: flex;
+  align-items: right;
+  text-align: left;
+  justify-content: center;
+  /* flex-direction: column;*/
+}
+
+/* .aboutMe-message {
+  position: inherit;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  color: black;
+  display: flex;
+  align-items: right;
+  text-align: right;
+  /* justify-content: center; */
+/* flex-direction: column; 
+}*/
+
+/* .aboutMe-sub-title {
+  position: flex;
+  height: 100%;
+  width: 100%;
+  background: ;
+  color: black;
+  display: flex;
+  align-items: right; */
+/* justify-content: center; */
+/* flex-direction: column;
+}*/
+
+/* #about-me img {
   align-items: left;
 }
 
 #about-me li {
   margin: 0 auto;
   list-style: none;
-}
+} */
 
 ul {
   text-align: center;
@@ -130,7 +199,7 @@ ul {
 
 img {
   margin-top: 50px;
-  border-radius: 10%;
+  border-radius: 5%;
   align-items: center;
 }
 
@@ -154,7 +223,7 @@ img {
       rgba(14, 0, 0, 1) 53%,
       rgba(242, 5, 5, 0.7931547619047619) 89%);
   grid-row: 4 / 5;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Chelsea Market', cursive;
   font-size: 100%;
   color: orange;
 }
@@ -170,7 +239,7 @@ li {
       rgba(232, 246, 27, 1) 98%);
   grid-row: 5 / 6;
   width: 100%;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Chelsea Market', cursive;
 }
 
 #footer li {
