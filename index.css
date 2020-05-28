@@ -242,7 +242,7 @@ li {
 @media screen and (max-width: 768px) {
   .line {
     width: 30px;
-    height: 3px;
+    height: 4px;
     background: black;
     margin: 5px;
   }
@@ -262,15 +262,20 @@ li {
 
   .nav-links {
     position: fixed;
-    background: linear-gradient(80deg,
+    background: rgb(18, 49, 120);
+    background: linear-gradient(185deg, rgba(18, 49, 120, 0.87718837535014) 56%, rgba(196, 205, 220, 0.88) 100%);
+    /* background: rgba(18, 49, 120, 1); */
+    /*18, 49, 120 */
+    /* background: linear-gradient(185deg, rgba(18, 49, 120, 1) 56%, rgba(196, 205, 220, 1) 100%); */
+    /* background: linear-gradient(80deg,
         rgba(238, 5, 5, 0.959) 39%,
         rgba(231, 246, 27, 0.959) 98%,
-        rgba(14, 0, 0, 0.945) 2%);
+        rgba(14, 0, 0, 0.945) 2%); */
     height: 100vh;
     width: 100%;
     flex-direction: column;
     clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -2%);
     transition: all 2s ease;
     pointer-events: none;
   }
