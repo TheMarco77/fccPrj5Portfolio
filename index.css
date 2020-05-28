@@ -43,7 +43,7 @@ nav {
   font-size: 70px;
   box-sizing: border-box;
   background: rgb(17, 46, 94);
-  background: linear-gradient(185deg, rgba(17, 46, 94, 1) 0%, rgba(0, 0, 0, 1) %);
+  background: linear-gradient(185deg, rgba(17, 46, 94, 1) 0%);
 }
 
 nav:after {
@@ -262,7 +262,6 @@ li {
 
   .nav-links {
     position: fixed;
-    /* background: #5b78c7; #6f78eed2 */
     background: linear-gradient(80deg,
         rgba(238, 5, 5, 0.959) 39%,
         rgba(231, 246, 27, 0.959) 98%,
@@ -312,7 +311,7 @@ li {
 
   .grid-wrapper {
     display: grid;
-    grid-template-rows: 101px 0px 580px 1fr 650px;
+    grid-template-rows: 95px 0px 580px 1fr 650px;
     /* repeat(2, 40px)*/
     /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
     /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
