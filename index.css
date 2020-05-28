@@ -262,8 +262,8 @@ li {
 
   .nav-links {
     position: fixed;
-    background: rgb(239, 244, 5);
-    background: linear-gradient(185deg, rgba(239, 244, 5, 0.7455357142857143) 0%, rgba(255, 255, 255, 0.4738270308123249) 92%);
+    background: rgb(255, 247, 0);
+    background: linear-gradient(185deg, rgba(255, 247, 0, 0.5438550420168067) 0%, rgba(241, 244, 246, 0.5382528011204482) 78%);
     /* background: rgb(18, 49, 120);
     background: linear-gradient(185deg, rgba(18, 49, 120, 0.87718837535014) 56%, rgba(196, 205, 220, 0.88) 100%); */
     /* background: rgba(18, 49, 120, 1); */
