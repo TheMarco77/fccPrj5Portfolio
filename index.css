@@ -311,7 +311,7 @@ li {
 
   .grid-wrapper {
     display: grid;
-    grid-template-rows: 95px 0px 580px 1fr 650px;
+    grid-template-rows: 60px 0px 580px 1fr 650px;
     /* repeat(2, 40px)*/
     /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
     /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
