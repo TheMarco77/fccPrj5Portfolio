@@ -262,14 +262,14 @@ li {
 
   .nav-links {
     position: fixed;
-    background: rgb(255, 247, 0);
-    background: linear-gradient(185deg, rgba(255, 247, 0, 0.5438550420168067) 0%, rgba(241, 244, 246, 0.5382528011204482) 78%);
+    background: rgb(255, 255, 0);
+    background: linear-gradient(185deg, rgba(255, 255, 0, 1) 0%, rgba(248, 248, 255, 1) 78%);
     /* background: rgb(18, 49, 120);
     background: linear-gradient(185deg, rgba(18, 49, 120, 0.87718837535014) 56%, rgba(196, 205, 220, 0.88) 100%); */
     /* background: rgba(18, 49, 120, 1); */
     /*18, 49, 120 */
-    /* background: linear-gradient(185deg, rgba(18, 49, 120, 1) 56%, rgba(196, 205, 220, 1) 100%); */
-    /* background: linear-gradient(80deg,
+    /* background: linear-gradient(185deg, rgba(18, 49, 120, 1) 56%, rgba(196, 205, 220, 1) 100%);
+    background: linear-gradient(80deg,
         rgba(238, 5, 5, 0.959) 39%,
         rgba(231, 246, 27, 0.959) 98%,
         rgba(14, 0, 0, 0.945) 2%); */
