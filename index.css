@@ -138,20 +138,15 @@ header {
   position: relative;
   height: 100%;
   width: 100%;
-  /* padding: 5px 5px 3px 5px; */
-  /* font-size: 23px; */
+  /* padding: 0 12px; */
+  /* font-size: 16px; */
   /* font-weight: bold; */
-  /* background: rgba(0, 0, 0, 0.4); */
-  /* color: rgb(0, 0, 0); */
-
-  /* font-style: italic; */
-
-
+  /* color: rgba(14, 0, 0, 1); */
   /* display: flex; */
-  /* align-items: right; */
+  /* align-items: center; */
   /* text-align: left; */
   /* justify-content: center; */
-  /* flex-direction: column;*/
+  /* flex-direction: column; */
 }
 
 /* .aboutMe-message {
@@ -324,6 +319,51 @@ li {
 
   li.fade {
     opacity: 1;
+  }
+
+  .about-me {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    opacity: 0.80;
+    background-position: 50% 50%;
+    background-image: url(https://raw.githubusercontent.com/TheMarco77/fccPrj5Portfolio/master/img/mainPortfolioImageMarcoFilipeFigueiraRamos.jpg);
+    font-family: 'Chelsea Market', cursive;
+    z-index: -1;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    border: 5em;
+    grid-row: 3 / 4;
+    text-align: center;
+    align-content: center;
+  }
+
+  .aboutMe-title {
+    position: inherit;
+    height: 100%;
+    color: rgb(17, 46, 94);
+    font-weight: bold;
+    display: right;
+    align-items: right;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .aboutMe-sub-title {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0 11px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(14, 0, 0, 1);
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .grid-wrapper {
