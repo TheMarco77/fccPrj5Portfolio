@@ -23,7 +23,7 @@ a {
 
 .grid-wrapper {
   display: grid;
-  grid-template-rows: 110px 2px 868px 1fr 320px;
+  grid-template-rows: 110px 2px 868px 1fr 420px;
   grid-gap: 3px;
   width: 100%;
   height: 100%;
