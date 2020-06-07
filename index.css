@@ -210,6 +210,10 @@ img {
   color: #277fca;
 }
 
+#projects ul {
+  padding-left: 0px;
+}
+
 li {
   display: inline-block;
 }
@@ -360,6 +364,16 @@ li {
     text-align: center;
     align-items: center;
     flex-direction: column;
+  }
+
+
+  #projects {
+    background: #caf1ff;
+    grid-row: 4 / 5;
+    /* margin-right: 45px; */
+    font-family: 'Chelsea Market', cursive;
+    font-size: 100%;
+    color: #277fca;
   }
 
   .grid-wrapper {
