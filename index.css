@@ -259,11 +259,9 @@ li {
     /* background: rgb(255, 255, 0);
     background: linear-gradient(185deg, rgba(255, 255, 0, 1) 0%, rgba(248, 248, 255, 1) 78%); */
     background: rgb(255, 255, 0);
-    background: linear-gradient(
-      185deg,
-      rgba(255, 255, 0, 0.804359243697479) 0%,
-      rgba(248, 248, 255, 0.7987570028011204) 78%
-    );
+    background: linear-gradient(185deg,
+        rgba(255, 255, 0, 0.804359243697479) 0%,
+        rgba(248, 248, 255, 0.7987570028011204) 78%);
     /* background: rgb(18, 49, 120);
     background: linear-gradient(185deg, rgba(18, 49, 120, 0.87718837535014) 56%, rgba(196, 205, 220, 0.88) 100%); */
     /* background: rgba(18, 49, 120, 1); */
