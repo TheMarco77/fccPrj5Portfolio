@@ -235,7 +235,7 @@ li {
   color: #b8c6ce;
 }
 
-/*Mobile CODE below*/
+/*Mobile CODE below max with 768px*/
 
 @media screen and (max-width: 768px) {
   .line {
@@ -260,21 +260,10 @@ li {
 
   .nav-links {
     position: fixed;
-    /* background: rgb(255, 255, 0);
-    background: linear-gradient(185deg, rgba(255, 255, 0, 1) 0%, rgba(248, 248, 255, 1) 78%); */
     background: rgb(255, 255, 0);
     background: linear-gradient(185deg,
         rgba(255, 255, 0, 0.804359243697479) 0%,
         rgba(248, 248, 255, 0.7987570028011204) 78%);
-    /* background: rgb(18, 49, 120);
-    background: linear-gradient(185deg, rgba(18, 49, 120, 0.87718837535014) 56%, rgba(196, 205, 220, 0.88) 100%); */
-    /* background: rgba(18, 49, 120, 1); */
-    /*18, 49, 120 */
-    /* background: linear-gradient(185deg, rgba(18, 49, 120, 1) 56%, rgba(196, 205, 220, 1) 100%);
-    background: linear-gradient(80deg,
-        rgba(238, 5, 5, 0.959) 39%,
-        rgba(231, 246, 27, 0.959) 98%,
-        rgba(14, 0, 0, 0.945) 2%); */
     height: 100vh;
     width: 100%;
     align-items: center;
@@ -370,7 +359,6 @@ li {
   #projects {
     background: #caf1ff;
     grid-row: 4 / 5;
-    /* margin-right: 45px; */
     font-family: 'Chelsea Market', cursive;
     font-size: 100%;
     color: #277fca;
