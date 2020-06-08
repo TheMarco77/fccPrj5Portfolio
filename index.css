@@ -236,8 +236,10 @@ li {
 }
 
 /*Mobile CODE below max with 768px*/
+/* @media screen and (max-width: 768px) */
+/* @media only screen and (max-width: 768px) */
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .line {
     width: 30px;
     height: 4px;
@@ -366,19 +368,43 @@ li {
 
   .grid-wrapper {
     display: grid;
-    grid-template-rows: 60px 0px 580px 1fr 650px;
+    grid-template-rows: 55px 2px 580px 1fr min-content;
     /* repeat(2, 40px)*/
     /* grid-template-rows: repeat(2, 30px) 500px 1190px 1fr; */
     /* grid-template-rows: repeat(2, 40px) 300px 1190px 1fr; */
-    grid-gap: 5px;
+    /* grid-gap: 5px; */
   }
 }
 
-/* @media only screen and (min-width: 1451px) {
+/* Having a hard time with this one I think!
+
+@media only screen and (min-width: 800px) {
   body {
     width: 100%;
     height: 100%;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-rows: 70px 2px 580px 1fr min-content; */
+/* grid-gap: 5px;
   } */
+/* } */
+
+/* @media only screen and (max-width: 1000px) {
+  .line {
+    width: 30px;
+    height: 4px;
+    background: black;
+    margin: 5px;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-rows: 55px 0 580px 1fr 650px;
+  }
+
+} */
 
 /* .wrapper {
   display: grid;
