@@ -80,7 +80,7 @@ nav:after {
   display: flex;
   list-style: none;
   width: 70%;
-  height: 100%;
+  /* height: 100%; */
   justify-content: space-around;
   align-items: center;
   margin-right: auto;
@@ -104,21 +104,24 @@ nav:after {
 } */
 
 .about-me {
-  /* box-sizing: border-box; */
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: 50% 50%;
   background-image: url(https://raw.githubusercontent.com/TheMarco77/fccPrj5Portfolio/master/img/mainPortfolioImageMarcoFilipeFigueiraRamos.jpg);
-  font-family: 'Chelsea Market', cursive;
-  z-index: -1;
-  letter-spacing: 1px;
-  font-size: 1rem;
-  border: 5em;
+  position: center center; /* it was relative*/
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  /* max-width: 100%; */
+  /* min-width: 95%; */
+  /* font-family: 'Chelsea Market', cursive; */
+  /* z-index: -1; */
+  /* letter-spacing: 1px; */
+  /*font-size: 1rem; */
+  /* border: 5em; */
+  /* text-align: center;
+  align-content: center; */
   grid-row: 3 / 4;
-  text-align: center;
-  align-content: center;
 }
 
 .aboutMe-title {
@@ -379,8 +382,8 @@ li {
     display: grid;
     grid-template-rows: 90px 2px 0.5fr 1fr min-content;
     grid-gap: 3px;
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
   }
   /* .about-me {
     position: relative;
