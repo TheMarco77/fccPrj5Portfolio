@@ -248,7 +248,7 @@ li {
 /* @media screen and (max-width: 768px) */
 /* @media only screen and (max-width: 768px) */
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1081px) {
   body {
     width: 100%;
     height: 100%;
