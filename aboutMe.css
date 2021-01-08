@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: #373737;
+    background-color: #CAF1FF;
     color: ghostwhite;
     text-align: center;
     font-family: 'Mali', cursive;
@@ -41,7 +41,7 @@ header {
     text-align: center;
 }
 #about-project {
-    background-color: #373737;
+    background-color: #CAF1FF;
     font-family: 'Montserrat Alternates', sans-serif;
     letter-spacing: 1.0px;
     font-size: 1rem;

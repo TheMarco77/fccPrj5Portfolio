@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Beginning of Head-->
-
 <head>
     <title>Marco F Ramos Portfolio</title>
     <meta charset="UTF-8">
@@ -9,39 +8,47 @@
     <link href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" rel="stylesheet" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="aboutMe.css" />
-    <!--<meta name="viewport" content="width=device-width, initial-scale=8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=8">
 </head>
-<div class="wrapper">
+<!-- end of head-->
+<div class="grid-wrapper">
+<!-- <div class="wrapper"> -->
     <body>
         <header>
-            <!-- <div id="welcome-section">
-        navigation bar starts here
-        </div> -->
-            <nav id="navbar">
-                <ul>
-                    <li><a href="https://marcoframos.com" alt="my projects"
-                            class="project-title btn color">&ensp;BACK&ensp;</a></li>
-                    <li><a href="https://marcoframos.com/#projects" alt="about me"
-                            class="project-title btn color">&ensp;PROJECTS&ensp;</a></li>
-                    <li><a href="https://marcoframos.com/#footer" alt="my contact"
-                            class="project-title btn color">&ensp;CONTACT ME&ensp;</a></li>
+            <nav>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="https://marcoframos.com" target="https://marcoframos.com" alt="home page">Main Page</a>
+                    </li>
+                    <li>
+                        <a href="https://marcoframos.com/#projects" target="https://marcoframos.com/#projects" alt="projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="https://marcoframos.com/#footer" target="https://marcoframos.com/#footer" alt="footer">Contact / Social</a>
+                    </li>    
                 </ul>
             </nav>
         </header>
-        <div id="about-project"><br>
-            <ul>
+            <div class="about-me">
+            <!-- <ul> -->
+            <div>
                 <li id="about-project" alt="About Me">
                     <div>
-                        <img src="https://raw.githubusercontent.com/TheMarco77/fccPrj5Portfolio/master/img/aboutMe.jpg"
-                            alt="My profile picture" style="width:600px;height:450px;">
-                        <h1>WELCOME TO MY PORTFOLIO!<br></h1>
-                        <h2>A Summary about me, and what I'm looking for.</h2>
+                        <h1 class="aboutMe-title">Welcome to the About me section!</h1><br>
+                        <img class="about-me" src="img/aboutMe.png" alt="My profile picture" style="width:600px;height:450px;">
+                        <!-- <h1 class="aboutMe-title">WELCOME TO MY PORTFOLIO!</h1><br> -->
+                        <p>A Summary about me, and what I'm looking for.</p>
                         <div>
-                            <h3><br>I am a career changer and a Frontend Web Developer.</h3>
+                            <h2>A tech career changer from Apps Support / Training</h2>
                             <p>
-                                <br>I have built and customized multiple websites from a blank page, 
+                                I have built and customized multiple websites from a blank page, 
                                 and also have customized WordPress templates as well as built 
-                                multiple single landing web pages. To advance my skillset I continue developing 
+                                multiple single landing web pages. To advance my skill set I continue developing 
                                 my personal projects evaluating designs and replicating it with pixel-perfect accuracy 
                                 and web responsive design that is seamlessly transitional from mobile to desktop, 
                                 utilizing technologies like; <font color="orange"> HTML, CSS, grids and JavaScript.
@@ -57,9 +64,12 @@
                         </div>
                     </div>
                 </li>
-            </ul>
+            </div>    
+            <!-- </ul> -->
+        </div>
             <!-- beginning of contact ul and li -->
             <ul>
+            </div>
                 <li id="#footer li" alt="page footer" class="project-title">
                     <br><br><strong>WAYS TO GET TO KNOW &#38 CONTACT ME.<br>AND YOU CAN ALSO,<br>
                     </strong>
@@ -95,7 +105,7 @@
                 <br><br><br>
             </ul>
             <!-- ending of contact ul and li -->
-        </div>
+        <!-- </div> -->
     </body>
 </div>
 
